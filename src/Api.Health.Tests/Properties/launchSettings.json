@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Api.Health.Tests": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Test"
+      }
+    }
+  }
+}

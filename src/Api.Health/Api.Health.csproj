@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <PackageId>AarekhLabs.AspNetCore.Api.Health</PackageId>
+    <Authors>AarekhLabs</Authors>
+    <Company>AarekhLabs</Company>
+    <Product>AarekhLabs.AspNetCore.Api.Health</Product>
+    <Description>AspNetCore based Health API that implements Heartbeat API for monitoring purpose.</Description>
+    <Copyright>2018 (c) AarekhLabs</Copyright>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyName>AarekhLabs.AspNetCore.Api.Health</AssemblyName>
+    <RootNamespace>AarekhLabs.AspNetCore.Api.Health</RootNamespace>
+    <PackageLicenseUrl>https://github.com/aarekhlabs/Health-Lite-Api-AspNetCore/blob/master/LICENSE</PackageLicenseUrl>
+    <Version>1.0.0.0</Version>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>AspNetCore, WebApi</PackageTags>
+    <PackageReleaseNotes>Initial release - V.1.0.0.0. 
+
+- Provide simple API to return status message, for monitoring purpose.</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/aarekhlabs/Health-Lite-Api-AspNetCore</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/aarekhlabs/Health-Lite-Api-AspNetCore</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="1.1.0" />
+  </ItemGroup>
+
+</Project>
