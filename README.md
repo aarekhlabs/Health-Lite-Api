@@ -26,7 +26,7 @@ A simple .net core 2.0 based project implementing REST API for monitoring servic
 Call API using CURL
 
 ```
-curl -X GET --header 'Accept: application/json' 'http://localhost:8363/api/health/heartbeat''``
+curl -X GET --header 'Accept: application/json' 'http://localhost:8363/api/health/heartbeat'
 ```
 
 Response:
