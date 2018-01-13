@@ -37,6 +37,8 @@ Response:
 }
 ```
 
+> Also, you can play with API by running ``Api.Web`` application and loading ``/swagger`` ui.
+
 ### Nuget Package
 
 The Health API is available as [nuget package](https://www.nuget.org/packages/AarekhLabs.AspNetCore.Api.Health).
